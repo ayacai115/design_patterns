@@ -5,8 +5,8 @@ class BookShelf
 
   attr_reader :books
 
-  def initialize(maxsize)
-    @books = Array.new(maxsize)
+  def initialize
+    @books = []
   end
 
   def get_book_at(index)

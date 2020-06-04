@@ -4,7 +4,7 @@ require_relative 'book_shelf_iterator'
 
 class Main
   def main
-    book_shelf = BookShelf.new(4)
+    book_shelf = BookShelf.new
     book_shelf.append_book(Book.new('Around the World in 80 days'))
     book_shelf.append_book(Book.new('Bible'))
     book_shelf.append_book(Book.new('Cinderella'))
