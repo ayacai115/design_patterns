@@ -15,7 +15,7 @@ class MainTest < Minitest::Test
     iterator = book_shelf.iterator
 
     assert_equal 'Around the World in 80 days', iterator.next.get_name
-    assert_equal  'Bible', iterator.next.get_name
+    assert_equal 'Bible', iterator.next.get_name
     assert_equal 'Cinderella', iterator.next.get_name
     assert_equal 'Daddy-Long-Legs', iterator.next.get_name
   end
