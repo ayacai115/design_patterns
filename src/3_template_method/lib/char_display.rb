@@ -8,11 +8,11 @@ class CharDisplay < AbstractDisplay
   end
 
   def open
-    puts '<<'
+    print '<<'
   end
 
-  def print
-    puts ch
+  def output
+    print ch
   end
 
   def close

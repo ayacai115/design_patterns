@@ -13,7 +13,7 @@ class StringDisplay < AbstractDisplay
     print_line
   end
 
-  def print
+  def output
     puts '|' + string + '|'
   end
 
